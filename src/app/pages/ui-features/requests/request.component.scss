@@ -1,0 +1,12 @@
+@import "../../../@theme/styles/themes";
+@import "~@nebular/theme/styles/global/typography/typography";
+
+@include nb-install-component() {
+  .circular {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+}

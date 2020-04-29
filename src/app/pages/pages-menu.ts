@@ -7,4 +7,9 @@ export const MENU_ITEMS: NbMenuItem[] = [
     link: '/pages/dashboard',
     home: true,
   },
+  {
+    title: 'Requests',
+    icon: 'nb-lightbulb',
+    link: '/pages/ui-features/requests',
+  },
 ];

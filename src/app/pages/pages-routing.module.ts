@@ -22,6 +22,10 @@ const routes: Routes = [{
       path: '**',
       component: NotFoundComponent,
     },
+    {   
+    path: 'ui-features',
+    loadChildren: './ui-features/ui-features.module#UiFeaturesModule',
+  },
   ],
 }];
 
